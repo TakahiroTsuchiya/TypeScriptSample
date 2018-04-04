@@ -1,0 +1,28 @@
+{
+  "name": "com.sample.typescript",
+  "version": "0.0.01",
+  "description": "Sample Applications by Type Script",
+  "main": "lib/app.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/tslint -p tslint.json",
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc --watch",
+    "shell": "npm run build",
+    "start": "node lib/app.js",
+    "stop": "lsof -ti :3000 | xargs kill"
+  },
+  "keywords": [],
+  "author": "Takahiro Tsuchiya",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.6.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "private": true
+}
