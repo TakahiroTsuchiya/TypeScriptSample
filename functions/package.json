@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc --watch",
     "shell": "npm run build",
-    "start": "npm run shell"
+    "start": "node lib/app.js",
+    "stop": "lsof -ti :3000 | xargs kill"
   },
   "keywords": [],
   "author": "Takahiro Tsuchiya",
