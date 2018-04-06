@@ -3,8 +3,8 @@ import * as moment from 'moment'
 
 const router = express.Router()
 
-// $domian[:$port]/api/moment
-router.get('/moment', (req, res, next) => {
+// $domian[:$port]/api/libs/moment
+router.get('/libs/moment', (req, res, next) => {
 
     const date = moment()
 

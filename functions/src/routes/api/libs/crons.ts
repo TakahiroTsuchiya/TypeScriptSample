@@ -7,8 +7,8 @@ const CronJob = require("cron").CronJob
 // 毎日6時から21時まで00分に処理を行う
 const cronTime = '0 6-21 * * *'
 
-// $domian[:$port]/api/cron
-router.get('/cron', (req, res, next) => {
+// $domian[:$port]/api/libs/cron
+router.get('/libs/cron', (req, res, next) => {
 
     new CronJob({
         cronTime: cronTime
