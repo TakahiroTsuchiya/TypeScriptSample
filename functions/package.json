@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/tslint -p tslint.json",
     "build": "./node_modules/.bin/tsc",
+    "debug": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc --watch",
     "shell": "npm run build",
