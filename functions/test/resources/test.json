@@ -1,0 +1,10 @@
+{
+    "isRegist": true,
+    "str-key": "str-values",
+    "arr-key": [1, 2, 3, 4],
+    "obj-key": {
+        "in-key1": 5,
+        "in-key2": "one"
+    },
+    "date-key": "2017-02-01T03:15:45.000Z"
+}
